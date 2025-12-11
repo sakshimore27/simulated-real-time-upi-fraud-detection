@@ -1,5 +1,4 @@
-Real-Time Simulated UPI Fraud Detection System
-
+**Real-Time Simulated UPI Fraud Detection System**
 This project simulates real-time UPI transactions and detects fraudulent activity using a trained Random Forest Machine Learning model.
 It includes:
 ✔ FastAPI backend
@@ -9,7 +8,7 @@ It includes:
 
 The system is designed to mimic live UPI payment activity and classify transactions as Fraudulent or Legitimate in real time.
 
-Features
+**Features**
 🔹 Real-Time Transaction Simulation
 
 Automatically generates dummy UPI transactions every few seconds
@@ -39,11 +38,9 @@ Real-time updates
 Stores transactions in MySQL.
 
 Dashboard fetches data continuously.
-
-▶️ How to Run This Project
+**How to Run This Project**
 Start FastAPI Backend
 uvicorn main:app --reload
-
 
 Your API starts here:
 http://127.0.0.1:8000/docs
@@ -61,7 +58,7 @@ streamlit run streamlit_dashboard.py
 Dashboard opens here:
 http://localhost:8501/
 
-📌 Tech Stack
+**📌 Tech Stack**
 
 Python
 
@@ -83,7 +80,7 @@ Fraud Probability: 0.92
 Status: FRAUD ⚠️
 
 
-How the System Works (Flow)
+**How the System Works (Flow)**
 simulate_transactions.py  
         ↓ (API request)
 FastAPI (main.py)  
